@@ -1,0 +1,127 @@
+.topSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 5rem;
+  margin-bottom: -12rem;
+}
+
+.topLeft {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.titleTop {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: -3rem;
+}
+
+.titleTop h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd200;
+  padding: 0.5rem 1rem;
+  color: #000;
+  font-size: 3rem;
+  margin: 2rem 0 0 0;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+
+  letter-spacing: -2px;
+}
+.titleTop h3 {
+  font-size: 1.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+
+  font-family: 'Montserrat';
+}
+.topAbout p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Montserrat';
+}
+.topAbout {
+  width: 35rem;
+}
+.topImage img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 1px 12px #ffd200);
+  width: 35rem;
+}
+
+@media (max-width: 768px) {
+  .topSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 3rem;
+  }
+  .topAbout p {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .topSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+
+  .topImage img {
+  
+    width: 27rem;
+  }
+  .titleTop {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 7.2rem;
+  }
+  .titleTop h1 {
+    font-size: 1.5rem;
+  }
+  .titleTop h3 {
+    font-size: 1rem;
+  }
+  .topAbout {
+    display: flex;
+    justify-content: center;
+  }
+  .topAbout p {
+    width: 20rem;
+  }
+}
+@media (max-width: 390px) {
+  .topSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .titleTop h1 {
+    font-size: 2rem;
+  }
+  .titleTop h3 {
+    font-size: 1.2rem;
+  }
+  .topAbout {
+    width: 32rem;
+  }
+  .topAbout p {
+    font-size: 1.2rem;
+  }
+}

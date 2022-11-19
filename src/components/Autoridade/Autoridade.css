@@ -1,0 +1,90 @@
+.autoridade {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 40rem;
+  background: url('../../../public/image/faixaAmarela.svg') center;
+  z-index: 20;
+}
+
+.clientes,
+.horas,
+.anos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.clientes h2,
+.horas h2,
+.anos h2 {
+  font-size: 5rem;
+  margin: 0;
+  font-family: 'Bebas Neue';
+  color: #000;
+  font-weight: 200;
+}
+.clientes h4,
+.horas h4,
+.anos h4 {
+  font-size: 1.8rem;
+  font-family: 'Montserrat';
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .autoridade {
+    display: flex;
+    justify-content: space-around;
+  }
+  .clientes h2,
+  .horas h2,
+  .anos h2 {
+    font-size: 3.5rem;
+    margin: 0;
+    line-height: 50px;
+  }
+  .clientes h4,
+  .horas h4,
+  .anos h4 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+}
+@media (max-width: 425px) {
+  .autoridade {
+    display: flex;
+    
+  }
+  .clientes h2,
+  .horas h2,
+  .anos h2 {
+    font-size: 3.5rem;
+    margin-top: -2rem;
+  }
+  .clientes h4,
+  .horas h4,
+  .anos h4 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 390px) {
+  /* .autoridade {
+    max-width: 425px;
+  } */
+  .clientes h2,
+  .horas h2,
+  .anos h2 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  .clientes h4,
+  .horas h4,
+  .anos h4 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+}

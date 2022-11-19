@@ -1,0 +1,84 @@
+.mentalCoach {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5rem;
+  margin-top: -8rem;
+}
+.titleMental {
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.titleMental h2,
+.subtitleMental h3 {
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffd200;
+  color: #000;
+  text-transform: uppercase;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+.titleMental p,
+.subtitleMental p {
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.8);
+  width: 30rem;
+  font-family: 'Montserrat';
+}
+
+.imageMental img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 1px 12px #ffd200);
+  width: 42rem;
+}
+
+@media (max-width: 768px) {
+  .mentalCoach {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .titleMental h2,
+  .subtitleMental h3 {
+    margin-top: 5rem;
+  }
+  .titleMental p,
+  .subtitleMental p {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .mentalCoach {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .imageMental img {
+    
+    width: 25rem;
+  }
+  .titleMental h2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.5rem;
+   
+  }
+  .titleMental p,
+  .subtitleMental p {
+    width: 20rem;
+  }
+  .subtitle h2 {
+    font-size: 1.2rem;
+  }
+}
