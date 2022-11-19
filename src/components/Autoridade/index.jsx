@@ -9,7 +9,7 @@ export default function Autoridade() {
       </div>
       <div className='horas'>
         <h2>+3000H</h2>
-        <h4>Horas de Seção</h4>
+        <h4>Horas de Sessão</h4>
       </div>
       <div className='anos'>
         <h2>+7</h2>
