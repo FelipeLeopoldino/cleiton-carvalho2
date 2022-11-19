@@ -49,8 +49,17 @@
 
 .botaoTop:hover {
   scale: 1;
+  color: #000;
+}
+ a {
+  text-decoration: none;
+  color: #252525;
+  transition: 0.3s ease;
 }
 
+ a:hover {
+  color: #fff;
+}
 @media (max-width: 768px) {
   .navbar {
     visibility: hidden;
