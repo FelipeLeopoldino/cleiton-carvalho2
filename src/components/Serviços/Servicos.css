@@ -63,24 +63,20 @@
     margin: 0 auto;
   }
 }
-@media (max-width: 390px) {
-  /* .servicos {
-    max-width: 425px;
-  } */
+@media (max-width: 425px) {
   .title {
     font-size: 1.5rem;
   }
   .pacotes {
     display: flex;
-    gap: 10rem;
+
     font-weight: 200;
   }
   .individual,
   .grupo,
   .palestra {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
     width: 5rem;
-    font-weight: 500;
   }
 }

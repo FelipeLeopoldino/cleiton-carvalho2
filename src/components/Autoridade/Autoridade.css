@@ -68,7 +68,7 @@
   .clientes h4,
   .horas h4,
   .anos h4 {
-    font-size: 1rem;
+    font-size: .8rem;
   }
 }
 @media (max-width: 390px) {
