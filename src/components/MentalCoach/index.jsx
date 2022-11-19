@@ -4,7 +4,7 @@ export default function MentalCoach() {
   return (
     <section id="mentalCoach" className="mentalCoach">
       <div className="imageMental">
-        <img src="../image/cleiton2.svg" alt="" />
+        <img src="../image/cleiton2.png" alt="" />
       </div>
       <div>
         <div className="titleMental">

@@ -50,7 +50,7 @@ export default function Contatos() {
         </a>
       </div>
       <div className="imagem">
-        <img src="../image/cleiton3.svg" alt="" />
+        <img src="../image/cleiton3.png" alt="" />
       </div>
     </section>
   )
