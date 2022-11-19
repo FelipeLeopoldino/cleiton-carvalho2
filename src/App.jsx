@@ -1,5 +1,5 @@
 import Autoridade from './components/Autoridade'
-import Carrossel from './components/carrossel'
+import Carrossel from './components/Carrossel'
 import Contatos from './components/Contatos'
 import Depoimentos from './components/Depoimentos'
 import Footer from './components/Footer'
@@ -18,8 +18,8 @@ function App() {
       <Servicos />
       <Depoimentos />
       <Carrossel />
-      <Contatos/>
-      <Footer/>
+      <Contatos />
+      <Footer />
     </div>
   )
 }
