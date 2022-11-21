@@ -15,4 +15,5 @@
 
 body {
   background: url('../public/image/TEXTURA.png') ;
+  overflow-x: hidden;
 }
