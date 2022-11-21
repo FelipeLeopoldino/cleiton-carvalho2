@@ -1,3 +1,4 @@
+import Reveal from 'react-reveal/Reveal'
 import Autoridade from './components/Autoridade'
 import Carrossel from './components/Carrossel'
 import Contatos from './components/Contatos'
@@ -7,7 +8,6 @@ import MentalCoach from './components/MentalCoach'
 import Servicos from './components/Serviços'
 import Topbar from './components/Topbar'
 import TopSection from './components/Topsection'
-import Reveal from 'react-reveal/Reveal'
 
 function App() {
   return (
