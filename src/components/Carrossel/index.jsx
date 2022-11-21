@@ -44,7 +44,7 @@ export default function Carrossel() {
         </div>
         <div
           className="imagemCarrossel"
-          style={{ marginLeft: scrollX, width: atletas * 150 }}
+          style={{ marginLeft: scrollX, width: atletas * 320 }}
         >
           {atletas.map(atleta => {
             return <img key={atleta.id} src={atleta.image} alt={atleta.nome} />
