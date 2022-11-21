@@ -7,18 +7,21 @@ import MentalCoach from './components/MentalCoach'
 import Servicos from './components/Serviços'
 import Topbar from './components/Topbar'
 import TopSection from './components/Topsection'
+import Reveal from 'react-reveal/Reveal'
 
 function App() {
   return (
     <div className="App">
       <Topbar />
-      <TopSection />
-      <Autoridade />
-      <MentalCoach />
-      <Servicos />
-      <Depoimentos />
-      <Carrossel />
-      <Contatos />
+      <Reveal>
+        <TopSection />
+        <Autoridade />
+        <MentalCoach />
+        <Servicos />
+        <Depoimentos />
+        <Carrossel />
+        <Contatos />
+      </Reveal>
       <Footer />
     </div>
   )
