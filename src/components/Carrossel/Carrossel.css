@@ -38,6 +38,12 @@
 
 .imagemCarrossel img {
   width: 12rem;
+  scale: .9;
+  transition: 0.3s all;
+}
+
+.imagemCarrossel img:hover {
+  scale: 1;
 }
 
 @media (max-width: 768px) {

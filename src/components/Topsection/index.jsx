@@ -3,7 +3,7 @@ import './Topsection.css'
 export default function TopSection() {
   return (
     <main>
-      <div className="topSection">
+      <div id='topSection' className="topSection">
         <div className="topLeft">
           <div className="titleTop">
             <h1>cleiton carvalho</h1>
