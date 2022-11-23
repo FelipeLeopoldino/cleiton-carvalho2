@@ -35,7 +35,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: drop-shadow(0px 1px 12px #ffd200);
+  filter: drop-shadow(0px 1px 150px #ffd200);
   width: 42rem;
 }
 
