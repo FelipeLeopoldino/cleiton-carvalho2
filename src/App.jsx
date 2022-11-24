@@ -1,4 +1,4 @@
-import Reveal from 'react-reveal/Reveal'
+
 import Autoridade from './components/Autoridade'
 import Carrossel from './components/Carrossel'
 import Contatos from './components/Contatos'
@@ -13,15 +13,13 @@ function App() {
   return (
     <div className="App">
       <Topbar />
-      <Reveal>
-        <TopSection />
-        <Autoridade />
-        <MentalCoach />
-        <Servicos />
-        <Depoimentos />
-        <Carrossel />
-        <Contatos />
-      </Reveal>
+      <TopSection />
+      <Autoridade />
+      <MentalCoach />
+      <Servicos />
+      <Depoimentos />
+      <Carrossel />
+      <Contatos />
       <Footer />
     </div>
   )
