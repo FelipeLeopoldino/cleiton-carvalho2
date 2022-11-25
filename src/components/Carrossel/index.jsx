@@ -4,11 +4,19 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext'
 import { useState } from 'react'
 
 const atletas = [
-  { id: 1, nome: 'Andrew', image: './image/andrew.svg' },
-  { id: 2, nome: 'Figeuiredo', image: './image/figueiredo.svg' },
-  { id: 3, nome: 'Giovanni', image: './image/giovanni.svg' },
-  { id: 4, nome: 'Pituca', image: './image/pituca.svg' },
-  { id: 5, nome: 'Pepe Firmino', image: './image/pepefirmino.svg' }
+  { id: 1, nome: 'Andrew-Gil Vicente-POR', image: './image/andrew.svg' },
+  {
+    id: 2,
+    nome: 'Figueiredo - Vasco da Gama-BRa',
+    image: './image/figueiredo.svg'
+  },
+  { id: 3, nome: 'Giovanni - ajax-hol', image: './image/giovanni.svg' },
+  {
+    id: 4,
+    nome: 'diego Pituca - kashima antlers-jpn',
+    image: './image/pituca.svg'
+  },
+  { id: 5, nome: 'Pepe Firmino - santos-bra', image: './image/pepefirmino.svg' }
 ]
 
 export default function Carrossel() {
@@ -47,7 +55,14 @@ export default function Carrossel() {
           style={{ marginLeft: scrollX, width: atletas * 320 }}
         >
           {atletas.map(atleta => {
-            return <img key={atleta.id} src={atleta.image} alt={atleta.nome} />
+            return (
+              <>
+                <div>
+                  <img key={atleta.id} src={atleta.image} alt={atleta.nome} />
+                  <p key={atleta.nome}>{atleta.nome}</p>
+                </div>
+              </>
+            )
           })}
         </div>
       </section>
