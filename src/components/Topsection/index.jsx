@@ -13,7 +13,7 @@ export default function TopSection() {
             <p>
               Sou formado em Coach desde 2016 pela Federação Brasileira de
               Coaching Integral Sistêmico, especializado em Inteligência
-              Emocional e leader coach.
+              Emocional e Leader Coach.
               <br />
               <br />
               Fui militar da Marinha do Brasil por 15 anos, instrutor de
@@ -23,7 +23,7 @@ export default function TopSection() {
               <br />
               Atuo no futebol desde 2017, atendi mais de 300 atletas, fiz mais
               de 3000 horas de sessões com atletas de grandes clubes no Brasil e
-              Europa na base e profissional.
+              Europa.
               <br />
               <br />
               Tornei-me um especialista em treinar mentalmente os atletas para

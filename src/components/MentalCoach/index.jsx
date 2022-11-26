@@ -13,7 +13,7 @@ export default function MentalCoach() {
             É uma metodologia de desenvolvimento pessoal e profissional que tem
             como objetivo ajudar o atleta desenvolver as habilidades mentais,
             emocionais e comportamentais essenciais para superar seus limites,
-            quebrar recordes e ter resultados de excelência e duradouros.
+            quebrar recordes , ter resultados de excelência e duradouros.
             <br />
             <br />
             No processo o atleta aprende a definir objetivos, estabelecer metas,
@@ -27,7 +27,7 @@ export default function MentalCoach() {
           <p>
             Ter foco na carreira, autoconfiança, concentração na hora do jogo,
             eliminar o medo de errar, nervosismo, ansiedade, usar a pressão ao
-            seu favor, estar motivado e disciplinado e superar as adversidades,
+            seu favor, estar motivado , disciplinado , superar as adversidades,
             fracassos, derrotas e lidar com as críticas.
             <br />
             <br />A metodologia mentalidade de campeão ajudará o atleta
