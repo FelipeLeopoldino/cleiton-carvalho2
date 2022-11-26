@@ -64,7 +64,7 @@
     align-items: center;
   }
   .imageMental img {
-    
+    filter: drop-shadow(0px 0px 8rem #ffd200);
     width: 25rem;
   }
   .titleMental h2 {
