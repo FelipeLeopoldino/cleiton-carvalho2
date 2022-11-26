@@ -90,7 +90,7 @@
 
   .topImage img {
     width: 27rem;
-    filter: drop-shadow(0px 0px 1rem #ffd200);
+    filter: drop-shadow(0px 0px 10rem #ffd200);
   }
   .titleTop {
     display: flex;
