@@ -36,7 +36,7 @@ export default function TopSection() {
           </div>
         </div>
         <div className="topImage">
-          <img src="../image/cleiton1.png" alt="" />
+          <img src="/image/cleiton1.png" alt="" />
         </div>
       </div>
     </main>

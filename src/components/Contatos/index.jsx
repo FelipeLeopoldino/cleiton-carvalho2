@@ -44,7 +44,7 @@ export default function Contatos() {
           target="_blank"
         >
           <button className="botaoContato">
-            <img src="../image/whatsapp.svg" alt="" />
+            <img src="/image/whatsapp.svg" alt="" />
             WhatsApp
           </button>
         </a>
