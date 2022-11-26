@@ -44,13 +44,13 @@ export default function Contatos() {
           target="_blank"
         >
           <button className="botaoContato">
-            <img src="/image/whatsapp.svg" alt="" />
+            <img src="../image/whatsapp.svg" alt="" />
             WhatsApp
           </button>
         </a>
       </div>
       <div className="imagem">
-        <img src="../image/cleiton3.png" alt="" />
+        <img src="/image/cleiton3.png" alt="" />
       </div>
     </section>
   )
