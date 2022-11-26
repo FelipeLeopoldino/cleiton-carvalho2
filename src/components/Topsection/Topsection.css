@@ -60,7 +60,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* filter: drop-shadow(0px 0px 150px #ffd200); */
+  filter: drop-shadow(0px 0px 10rem #ffd200);
   width: 35rem;
   z-index: 10;
 }
@@ -88,9 +88,9 @@
     margin-top: 3rem;
   }
 
-  /* .topImage img {
+  .topImage img {
     width: 27rem;
-  } */
+  }
   .titleTop {
     display: flex;
     justify-content: flex-start;
