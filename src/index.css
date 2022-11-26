@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-
 :root {
   font-family: 'Bebas Neue', 'Montserrat', sans-serif;
   font-size: 16px;
@@ -10,10 +9,10 @@
 
   color: rgb(255, 255, 255);
   background-color: #000;
- 
+  overflow-x: hidden;
 }
 
 body {
-  background: url('/image/TEXTURA.png') ;
+  background: url('/image/TEXTURA.png');
   overflow-x: hidden;
 }

@@ -56,12 +56,10 @@ export default function Carrossel() {
         >
           {atletas.map(atleta => {
             return (
-              <>
-                <div>
-                  <img key={atleta.id} src={atleta.image} alt={atleta.nome} />
-                  <p key={atleta.nome}>{atleta.nome}</p>
-                </div>
-              </>
+              <div key={atleta.id}>
+                <img src={atleta.image} alt={atleta.nome} />
+                <p>{atleta.nome}</p>
+              </div>
             )
           })}
         </div>
