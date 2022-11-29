@@ -10,13 +10,17 @@ const atletas = [
     nome: 'Figueiredo - Vasco da Gama-BRa',
     image: './image/figueiredo.svg'
   },
-  { id: 3, nome: 'Giovanni - ajax-hol', image: './image/giovanni.svg' },
+  { id: 6, nome: 'matheus gonçalves - flamengo-bra', image: './image/matheusgonçalves-flamengo.jpeg' },
+  { id: 9, nome: 'joshua - flamengo-bra', image: './image/joshua-flamengo.jpeg' },
   {
     id: 4,
     nome: 'diego Pituca - kashima antlers-jpn',
     image: './image/pituca.svg'
   },
-  { id: 5, nome: 'Pepe Firmino - santos-bra', image: './image/pepefirmino.svg' }
+  { id: 3, nome: 'Giovanni - ajax-hol', image: './image/giovanni.svg' },
+  { id: 5, nome: 'Pepe Firmino - santos-bra', image: './image/pepe-santos.jpeg' },
+  { id: 7, nome: 'tete - saopaulo-bra', image: './image/tete-saopaulo.jpeg' },
+  { id: 8, nome: 'luciano - saopaulo-bra', image: './image/luciano-saopaulo.jpeg' },
 ]
 
 export default function Carrossel() {
